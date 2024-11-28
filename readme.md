@@ -115,12 +115,12 @@ O dataset está dividido entre imagens reais e imagens sintéticas, já separado
 1. **Imagens Reais de Ultrassonografia:** Total de 617 imagens
 
    ![dataset real](Src/Imgs/realimg.png)
-	1. **Treino:
+	1. **Treino:**
 		- 404  imagens reais de ultrassonografia.
 		- Nenhuma imagem possui anotação no subconjunto de treino.
 	2. **Teste:**
-		 - 213 imagens reais de ultrassonografia.
-		 - 61 máscaras de segmentação anotadas manualmente.
+		- 213 imagens reais de ultrassonografia.
+		- 61 máscaras de segmentação anotadas manualmente.
 
 2. **Imagens Sintéticas de Ultrassonografia:** Total de 926 imagens
 
@@ -128,8 +128,8 @@ O dataset está dividido entre imagens reais e imagens sintéticas, já separado
 
 	1. **Treino:**
 		-  633 imagens sintéticas de ultrassonografia.
-	    - 633 máscaras de segmentação
-    1. **Teste:**
+	  - 633 máscaras de segmentação
+  2. **Teste:**
 		-  293 imagens sintéticas de ultrassonografia.
 		- 293 máscaras de segmentação anotadas automaticamente.
 
