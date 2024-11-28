@@ -8,6 +8,7 @@ Este é o repositório do projeto **Segmentador de Ultrassom Abdominal**, um seg
 
 ## Funcionalidades
 - Segmenta 8 órgãos abdominais diferentes
+- Gera máscara sobreposta à imagem original
 - Interface gráfica intuitiva com legenda de cores
 - Pipeline completo para treinamento de modelos de segmentação com U-net e variantes.
 
@@ -153,6 +154,6 @@ As anotações são representadas por cores que identificam diferentes órgãos 
 ├── Testes                   # Diretório com os testes de predição
 ├── requirements.txt         # Dependências do projeto
 ├── Segmentação_Semântica_Abdominal.pdf  # Relatório de desenvolvimento do projeto
-├── segmentador.py           # Roda a interface para fazer as predições
+├── app_segmentador.py           # Roda a interface para fazer as predições
 ├── README.md                # Este arquivo
 ```
