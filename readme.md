@@ -116,22 +116,22 @@ O dataset está dividido entre imagens reais e imagens sintéticas, já separado
 
    ![dataset real](Src/Imgs/realimg.png)
 	 1. **Treino:**
-		- 404  imagens reais de ultrassonografia.
-		- Nenhuma imagem possui anotação no subconjunto de treino.
+		 - 404  imagens reais de ultrassonografia.
+		 - Nenhuma imagem possui anotação no subconjunto de treino.
 	 2. **Teste:**
-		- 213 imagens reais de ultrassonografia.
-		- 61 máscaras de segmentação anotadas manualmente.
+		 - 213 imagens reais de ultrassonografia.
+		 - 61 máscaras de segmentação anotadas manualmente.
 
 2. **Imagens Sintéticas de Ultrassonografia:** Total de 926 imagens
 
    ![sintetico](Src/Imgs/simuimg.png)
 
 	 1. **Treino:**
-		- 633 imagens sintéticas de ultrassonografia.
-	  - 633 máscaras de segmentação
+		 - 633 imagens sintéticas de ultrassonografia.
+	   - 633 máscaras de segmentação
    2. **Teste:**
-		- 293 imagens sintéticas de ultrassonografia.
-		- 293 máscaras de segmentação anotadas automaticamente.
+		 - 293 imagens sintéticas de ultrassonografia.
+		 - 293 máscaras de segmentação anotadas automaticamente.
 
 **Anotações**
 As anotações são representadas por cores que identificam diferentes órgãos abdominais:
