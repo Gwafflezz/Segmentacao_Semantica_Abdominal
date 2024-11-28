@@ -127,10 +127,10 @@ O dataset está dividido entre imagens reais e imagens sintéticas, já separado
    ![sintetico](Src/Imgs/simuimg.png)
 
 	 1. **Treino:**
-		-  633 imagens sintéticas de ultrassonografia.
+		- 633 imagens sintéticas de ultrassonografia.
 	  - 633 máscaras de segmentação
    2. **Teste:**
-		-  293 imagens sintéticas de ultrassonografia.
+		- 293 imagens sintéticas de ultrassonografia.
 		- 293 máscaras de segmentação anotadas automaticamente.
 
 **Anotações**
