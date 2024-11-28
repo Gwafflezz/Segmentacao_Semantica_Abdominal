@@ -15,7 +15,7 @@ Este é o repositório do projeto **Segmentador de Ultrassom Abdominal**, um seg
 ## Arquitetura
 A arquitetura da rede foi implementada manualmente seguindo o artigo original "U-Net: Convolutional Networks for Biomedical Image Segmentation", disponível no link: https://arxiv.org/pdf/1505.04597v1 
 
-Para a modelagem do modelo, foi utilizado o framework **TensorFlow** com a **API Keras**.
+Para a modelagem da rede, foi utilizado o framework **TensorFlow** com a **API Keras**.
 
 ## Exemplos de predições: 
 
