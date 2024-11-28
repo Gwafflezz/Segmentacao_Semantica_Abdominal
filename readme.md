@@ -1,6 +1,6 @@
 
 # Segmentação semântica de órgãos abdominais em ultrassom com U-Net
-Este é o repositório do projeto **Segmentador de Ultrassom Abdominal**, um segmentador semântico de órgãos abdominais em imagens de ultrassom, treinado com a arquitetura U**-net**, implementado com *Tensorflor/Keras* e interface gráfica *Gradio*.
+Este é o repositório do projeto **Segmentador de Ultrassom Abdominal**, um segmentador semântico de órgãos abdominais em imagens de ultrassom, treinado com a arquitetura **U-net**, implementado com *Tensorflor/Keras* e interface gráfica *Gradio*.
 
 <p align="center">
   <img src="Src/Imgs/interface.gif" alt="animated gif">
@@ -133,8 +133,7 @@ O dataset está dividido entre imagens reais e imagens sintéticas, já separado
 		 - 293 imagens sintéticas de ultrassonografia.
 		 - 293 máscaras de segmentação anotadas automaticamente.
 
-**Anotações**
-As anotações são representadas por cores que identificam diferentes órgãos abdominais:
+As **Anotações** são representadas por cores que identificam diferentes órgãos abdominais:
 
 - **Violeta:** Fígado.
 - **Amarelo:** Rins.
