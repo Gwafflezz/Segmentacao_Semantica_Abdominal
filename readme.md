@@ -33,15 +33,17 @@ Para a modelagem da rede, foi utilizado o framework **TensorFlow** com a **API K
 
 2. Instale as dependências do projeto:
     pip install -r requirements.txt
-    ```
+
 
 ## Utilização
 Para realizar segmentações em imagens de ultrassom ou treinar o sua própria versão, siga os passos a seguir:
 
+
 ### Predição com interface iterativa
 Execute o script *segmentador.py* para iniciar uma interface web, onde poderão ser feitas as predições:
-
-- gif - 
+<p align="center">
+  <img src="Src/Imgs/interface.gif" alt="animated gif">
+</p>
 
 ```bash
 python segmentador.py
