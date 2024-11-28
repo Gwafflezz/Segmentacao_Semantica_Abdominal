@@ -1,5 +1,5 @@
 
-# Segmentação de órgãos abdominais em ultrassom com U-Net
+# Segmentação semântica de órgãos abdominais em ultrassom com U-Net
 Este é o repositório do projeto **Segmentador de Ultrassom Abdominal**, um segmentador semântico de órgãos abdominais em imagens de ultrassom, treinado com a arquitetura U**-net**, implementado com *Tensorflor/Keras* e interface gráfica *Gradio*.
 
 <p align="center">
