@@ -124,7 +124,7 @@ O dataset está dividido entre imagens reais e imagens sintéticas, já separado
 
 2. **Imagens Sintéticas de Ultrassonografia:** Total de 926 imagens
 
-   ![sintetico](SSrc/Imgs/simuimg.png)
+   ![sintetico](Src/Imgs/simuimg.png)
 
 	1. **Treino:**
 		-  633 imagens sintéticas de ultrassonografia.
