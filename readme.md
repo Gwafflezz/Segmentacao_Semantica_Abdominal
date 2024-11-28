@@ -27,12 +27,15 @@ Para a modelagem da rede, foi utilizado o framework **TensorFlow** com a **API K
 
 1. Clone o repositório:
     ```bash
-    git clone 
-    cd 
+    git clone "https://github.com/Gwafflezz/Segmentacao_Semantica_Abdominal"
+
     ```
 
 2. Instale as dependências do projeto:
+
+    ```bash
     pip install -r requirements.txt
+    ```
 
 
 ## Utilização
@@ -72,8 +75,7 @@ Ao final do treiamento, um gráfico com as métricas será exibido, e o a versã
 
 4. Testar em um conjunto de imagens:
 - Abra o script *test_save*, altere o parâmetro *modelname* com o título do modelo a ser carregado para realizar o teste.
-- Altere o parâmetro *model_name* com o nome do arquivo do modelo a ser testado.
-- Altere o parâmetro de *predict* para definir em qual subconjunto será feito o treino.
+- Altere o parâmetro de *predict* para definir em qual subconjunto será feito o teste.
 - Altere o parâmetro *testename* para definir o nome do diretório em que será salvo as predições do teste. Um novo diretório será criado caso ele não exista.
 
 
@@ -92,7 +94,7 @@ y_pred=model.predict(X_test)
 
 testename = "Teste5"
 ```
-Altere o parâmetro
+- Execute o script:
 
 ```bash
 python test_save.py
@@ -111,7 +113,8 @@ Este dataset foi desenvolvido com  imagens reais de ultrassonografia e imagens s
 O dataset está dividido entre imagens reais e imagens sintéticas, já separados em subconjuntos de treino e teste.
 
 1. **Imagens Reais de Ultrassonografia:** Total de 617 imagens
-   ![dataset real](Src/Imgs/Pasted image 20241120211024.png)
+
+   ![dataset real](Src/Imgs/realimg.png)
 	1. **Treino:
 		- 404  imagens reais de ultrassonografia.
 		- Nenhuma imagem possui anotação no subconjunto de treino.
@@ -121,7 +124,7 @@ O dataset está dividido entre imagens reais e imagens sintéticas, já separado
 
 2. **Imagens Sintéticas de Ultrassonografia:** Total de 926 imagens
 
-   ![sintetico](Src/Imgs/Pasted image 20241120211424.png)
+   ![sintetico](SSrc/Imgs/simuimg.png)
 
 	1. **Treino:**
 		-  633 imagens sintéticas de ultrassonografia.
