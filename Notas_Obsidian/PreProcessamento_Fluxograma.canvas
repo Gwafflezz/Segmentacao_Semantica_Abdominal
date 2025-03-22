@@ -1,0 +1,743 @@
+{
+  "nodes": [
+    {
+      "id": "b72d634e012d338b",
+      "type": "group",
+      "styleAttributes": {
+        "border": "dashed"
+      },
+      "x": -738,
+      "y": -576,
+      "width": 771,
+      "height": 139,
+      "color": "5",
+      "label": "Dataset"
+    },
+    {
+      "id": "d59f99dd8ad447f7",
+      "type": "group",
+      "styleAttributes": {
+        "border": "dashed"
+      },
+      "x": -317,
+      "y": -198,
+      "width": 335,
+      "height": 202,
+      "label": "Datasets Teste"
+    },
+    {
+      "id": "a42a4aa5fa1f70ca",
+      "type": "group",
+      "styleAttributes": {
+        "border": "dashed"
+      },
+      "x": -738,
+      "y": -198,
+      "width": 330,
+      "height": 202,
+      "label": "Dataset Treino"
+    },
+    {
+      "id": "fea2c19862e4f7a2",
+      "type": "text",
+      "text": " [[Dataloader]]",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "pill"
+      },
+      "lockedHeight": true,
+      "x": -431,
+      "y": -371,
+      "width": 140,
+      "height": 60,
+      "color": "3"
+    },
+    {
+      "id": "0898bb5196659955",
+      "type": "text",
+      "text": "**Reshape**",
+      "styleAttributes": {
+        "shape": null,
+        "textAlign": "center"
+      },
+      "lockedHeight": true,
+      "x": -431,
+      "y": -300,
+      "width": 128,
+      "height": 28,
+      "color": "3"
+    },
+    {
+      "id": "ac9724730f1082e1",
+      "type": "text",
+      "text": "**Lista  de Nomes**",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": null
+      },
+      "lockedHeight": true,
+      "x": -183,
+      "y": -371,
+      "width": 156,
+      "height": 60,
+      "color": "5"
+    },
+    {
+      "id": "c18d33e85691ff6e",
+      "type": "text",
+      "text": "**Verificação**",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": null,
+        "border": null
+      },
+      "x": 71,
+      "y": -371,
+      "width": 111,
+      "height": 60,
+      "color": "3"
+    },
+    {
+      "id": "ad8bdedec2de5bed",
+      "type": "file",
+      "file": "Faculdade/LAMIA/Segmentação_Semântica_Abdominal/Dict_Classes.md",
+      "styleAttributes": {},
+      "isStartNode": false,
+      "x": -838,
+      "y": 217,
+      "width": 267,
+      "height": 238,
+      "color": "3"
+    },
+    {
+      "id": "52ceedc8d2982c6e",
+      "type": "text",
+      "text": "**Dimensões:**\nReais: 640x480\nSimuladas: 449x464",
+      "styleAttributes": {
+        "textAlign": null,
+        "border": "invisible"
+      },
+      "x": -738,
+      "y": -556,
+      "width": 221,
+      "height": 100
+    },
+    {
+      "id": "341438fdfe8b8f87",
+      "type": "text",
+      "text": "**US reais**",
+      "styleAttributes": {
+        "textAlign": null
+      },
+      "x": -517,
+      "y": -536,
+      "width": 132,
+      "height": 60,
+      "color": "6"
+    },
+    {
+      "id": "0f92a97e70a112a7",
+      "type": "text",
+      "text": "**Formatos:**\nReais: .jpg\nSimuladas: .png",
+      "styleAttributes": {
+        "textAlign": "right",
+        "border": "invisible"
+      },
+      "x": -188,
+      "y": -556,
+      "width": 221,
+      "height": 120
+    },
+    {
+      "id": "17288ecd5f6caffc",
+      "type": "text",
+      "text": "**US simulados**",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": null
+      },
+      "x": -347,
+      "y": -536,
+      "width": 127,
+      "height": 60,
+      "color": "6"
+    },
+    {
+      "id": "37a3c7667a95ac50",
+      "type": "file",
+      "file": "Faculdade/LAMIA/Segmentação_Semântica_Abdominal/Label Encoder.md",
+      "styleAttributes": {},
+      "x": -497,
+      "y": 199,
+      "width": 254,
+      "height": 275,
+      "color": "3"
+    },
+    {
+      "id": "eb508b26fb4d1990",
+      "type": "text",
+      "text": "imagens US simulados x633",
+      "styleAttributes": {},
+      "x": -711,
+      "y": -138,
+      "width": 280,
+      "height": 28,
+      "color": "5"
+    },
+    {
+      "id": "d38d8472083e1054",
+      "type": "text",
+      "text": "Imagens US reais x404",
+      "styleAttributes": {
+        "shape": null
+      },
+      "x": -711,
+      "y": -178,
+      "width": 280,
+      "height": 28,
+      "color": "1"
+    },
+    {
+      "id": "1457d0b649da4d99",
+      "type": "text",
+      "text": "máscaras US simulados x633",
+      "styleAttributes": {},
+      "x": -711,
+      "y": -98,
+      "width": 280,
+      "height": 28,
+      "color": "4"
+    },
+    {
+      "id": "5b189e38e81045b1",
+      "type": "text",
+      "text": "**Concatena**",
+      "styleAttributes": {
+        "shape": null,
+        "textAlign": "center"
+      },
+      "lockedHeight": true,
+      "x": -666,
+      "y": 77,
+      "width": 149,
+      "height": 27,
+      "color": "3"
+    },
+    {
+      "id": "27971a0756527585",
+      "type": "text",
+      "text": "imagens US simulados 293",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": -291,
+      "y": -138,
+      "width": 280,
+      "height": 28,
+      "color": "5"
+    },
+    {
+      "id": "82e9419acb130d09",
+      "type": "text",
+      "text": "Imagens US reais x213",
+      "styleAttributes": {},
+      "x": -291,
+      "y": -178,
+      "width": 280,
+      "height": 28,
+      "color": "1"
+    },
+    {
+      "id": "502adaffe2f3006e",
+      "type": "text",
+      "text": "  **Concatena**",
+      "styleAttributes": {
+        "shape": null,
+        "textAlign": "center"
+      },
+      "lockedHeight": true,
+      "x": -444,
+      "y": 29,
+      "width": 148,
+      "height": 27,
+      "color": "3"
+    },
+    {
+      "id": "6c947a6533ddfe25",
+      "type": "text",
+      "text": "***Conjunto de teste***",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "lockedHeight": true,
+      "x": -218,
+      "y": 114,
+      "width": 191,
+      "height": 28,
+      "color": "5"
+    },
+    {
+      "id": "57a7c7b47b9c198e",
+      "type": "text",
+      "text": "***Conjunto de treino***",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "lockedHeight": true,
+      "x": -218,
+      "y": 58,
+      "width": 191,
+      "height": 28,
+      "color": "5"
+    },
+    {
+      "id": "42ed143f437c246f",
+      "type": "text",
+      "text": "***Conjunto de valid.***",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "lockedHeight": true,
+      "x": -218,
+      "y": 86,
+      "width": 191,
+      "height": 28,
+      "color": "5"
+    },
+    {
+      "id": "382ccbf19d207853",
+      "type": "text",
+      "text": "Máscaras US reais x63",
+      "styleAttributes": {},
+      "lockedHeight": true,
+      "x": -291,
+      "y": -98,
+      "width": 280,
+      "height": 28,
+      "color": "1"
+    },
+    {
+      "id": "9ce146f91b8712ed",
+      "type": "text",
+      "text": "máscaras US simulados  x293",
+      "styleAttributes": {},
+      "x": -291,
+      "y": -60,
+      "width": 280,
+      "height": 28,
+      "color": "4"
+    },
+    {
+      "id": "16762950b214837e",
+      "type": "text",
+      "text": "**Máscaras** \nPixel/Classe",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "lockedHeight": true,
+      "isStartNode": false,
+      "x": -184,
+      "y": 306,
+      "width": 106,
+      "height": 60,
+      "color": "5"
+    },
+    {
+      "id": "2cf56cae38fd1fda",
+      "type": "text",
+      "text": "**Normaliza**",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": null
+      },
+      "lockedHeight": true,
+      "x": 65,
+      "y": -2,
+      "width": 121,
+      "height": 60,
+      "color": "3"
+    },
+    {
+      "id": "ec30f1475ed18d61",
+      "type": "text",
+      "text": "**U-net**",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "predefined-process"
+      },
+      "lockedHeight": true,
+      "x": 62,
+      "y": 104,
+      "width": 127,
+      "height": 120,
+      "color": "#f95de4"
+    },
+    {
+      "id": "701872af75ab0569",
+      "type": "text",
+      "text": "**Predições**",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "pill"
+      },
+      "x": 74,
+      "y": 308,
+      "width": 104,
+      "height": 60,
+      "color": "#1ffe01"
+    },
+    {
+      "id": "68430c22c4e511be",
+      "type": "text",
+      "text": "One-hot Encoded",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": null
+      },
+      "x": -175,
+      "y": 224,
+      "width": 88,
+      "height": 60,
+      "color": "3"
+    }
+  ],
+  "edges": [
+    {
+      "id": "73061838fbffa9b4",
+      "styleAttributes": {
+        "pathfindingMethod": null
+      },
+      "fromNode": "17288ecd5f6caffc",
+      "fromSide": "bottom",
+      "toNode": "fea2c19862e4f7a2",
+      "toSide": "top",
+      "color": "6"
+    },
+    {
+      "id": "47e151ac472681ab",
+      "styleAttributes": {
+        "pathfindingMethod": null
+      },
+      "fromNode": "341438fdfe8b8f87",
+      "fromSide": "bottom",
+      "toNode": "fea2c19862e4f7a2",
+      "toSide": "top",
+      "color": "6"
+    },
+    {
+      "id": "54bc403e0f9fa1de",
+      "styleAttributes": {
+        "pathfindingMethod": null,
+        "path": null
+      },
+      "fromNode": "fea2c19862e4f7a2",
+      "fromSide": "bottom",
+      "toNode": "d59f99dd8ad447f7",
+      "toSide": "top",
+      "color": "6",
+      "label": "np.array"
+    },
+    {
+      "id": "6325349847dc9af3",
+      "styleAttributes": {
+        "pathfindingMethod": null
+      },
+      "fromNode": "fea2c19862e4f7a2",
+      "fromSide": "bottom",
+      "toNode": "a42a4aa5fa1f70ca",
+      "toSide": "top",
+      "color": "6",
+      "label": "np.array"
+    },
+    {
+      "id": "966ef640760bfbc5",
+      "styleAttributes": {
+        "pathfindingMethod": null,
+        "path": "short-dashed"
+      },
+      "fromNode": "ad8bdedec2de5bed",
+      "fromSide": "right",
+      "toNode": "37a3c7667a95ac50",
+      "toSide": "left",
+      "color": "3"
+    },
+    {
+      "id": "d61a92b159e651a6",
+      "styleAttributes": {
+        "pathfindingMethod": null
+      },
+      "fromNode": "1457d0b649da4d99",
+      "fromSide": "right",
+      "toNode": "502adaffe2f3006e",
+      "toSide": "top",
+      "color": "4"
+    },
+    {
+      "id": "ed3e05217f07230c",
+      "styleAttributes": {
+        "pathfindingMethod": null
+      },
+      "fromNode": "9ce146f91b8712ed",
+      "fromSide": "left",
+      "toNode": "502adaffe2f3006e",
+      "toSide": "top",
+      "color": "4"
+    },
+    {
+      "id": "29588f6e312ad93f",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "fea2c19862e4f7a2",
+      "fromSide": "right",
+      "toNode": "ac9724730f1082e1",
+      "toSide": "left",
+      "color": "3"
+    },
+    {
+      "id": "c795af0969ea9958",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "37a3c7667a95ac50",
+      "fromSide": "right",
+      "toNode": "16762950b214837e",
+      "toSide": "left",
+      "color": "4"
+    },
+    {
+      "id": "a8a61e1c0db41705",
+      "styleAttributes": {},
+      "fromNode": "16762950b214837e",
+      "fromSide": "top",
+      "toNode": "42ed143f437c246f",
+      "toSide": "left",
+      "color": "4"
+    },
+    {
+      "id": "72da9cdf17ec9103",
+      "styleAttributes": {},
+      "fromNode": "16762950b214837e",
+      "fromSide": "top",
+      "toNode": "57a7c7b47b9c198e",
+      "toSide": "left",
+      "color": "4"
+    },
+    {
+      "id": "f3a7be2b7267789c",
+      "styleAttributes": {},
+      "fromNode": "16762950b214837e",
+      "fromSide": "top",
+      "toNode": "6c947a6533ddfe25",
+      "toSide": "left",
+      "color": "4"
+    },
+    {
+      "id": "bea6c9901694bb96",
+      "styleAttributes": {},
+      "fromNode": "5b189e38e81045b1",
+      "fromSide": "bottom",
+      "toNode": "57a7c7b47b9c198e",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "0665b252fd0e0450",
+      "styleAttributes": {},
+      "fromNode": "5b189e38e81045b1",
+      "fromSide": "bottom",
+      "toNode": "42ed143f437c246f",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "02fd766bb8b847f5",
+      "styleAttributes": {},
+      "fromNode": "5b189e38e81045b1",
+      "fromSide": "bottom",
+      "toNode": "6c947a6533ddfe25",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "8c786759c4019645",
+      "styleAttributes": {},
+      "fromNode": "502adaffe2f3006e",
+      "fromSide": "bottom",
+      "toNode": "37a3c7667a95ac50",
+      "toSide": "top",
+      "color": "4"
+    },
+    {
+      "id": "34fd2dfb412f377e",
+      "styleAttributes": {},
+      "fromNode": "27971a0756527585",
+      "fromSide": "left",
+      "toNode": "5b189e38e81045b1",
+      "toSide": "right",
+      "color": "5"
+    },
+    {
+      "id": "5a4ae96d65d75aa1",
+      "styleAttributes": {},
+      "fromNode": "eb508b26fb4d1990",
+      "fromSide": "left",
+      "toNode": "5b189e38e81045b1",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "a846f63ecdea6fc8",
+      "styleAttributes": {},
+      "fromNode": "42ed143f437c246f",
+      "fromSide": "right",
+      "toNode": "2cf56cae38fd1fda",
+      "toSide": "left",
+      "color": "1"
+    },
+    {
+      "id": "caab0d02aaa0fe65",
+      "styleAttributes": {},
+      "fromNode": "ac9724730f1082e1",
+      "fromSide": "right",
+      "toNode": "c18d33e85691ff6e",
+      "toSide": "left",
+      "color": "3"
+    },
+    {
+      "id": "8b1e96c97978cec4",
+      "styleAttributes": {},
+      "fromNode": "ec30f1475ed18d61",
+      "fromSide": "bottom",
+      "toNode": "701872af75ab0569",
+      "toSide": "top",
+      "color": "#16ff05"
+    },
+    {
+      "id": "2bf3807e4048f556",
+      "styleAttributes": {},
+      "fromNode": "57a7c7b47b9c198e",
+      "fromSide": "right",
+      "toNode": "2cf56cae38fd1fda",
+      "toSide": "left",
+      "color": "1"
+    },
+    {
+      "id": "3f6cdafaf408b5bc",
+      "styleAttributes": {},
+      "fromNode": "6c947a6533ddfe25",
+      "fromSide": "right",
+      "toNode": "2cf56cae38fd1fda",
+      "toSide": "left",
+      "color": "1"
+    },
+    {
+      "id": "cfd78d1617321fc7",
+      "styleAttributes": {},
+      "fromNode": "2cf56cae38fd1fda",
+      "fromSide": "bottom",
+      "toNode": "ec30f1475ed18d61",
+      "toSide": "top",
+      "color": "1"
+    },
+    {
+      "id": "424dfff759827a17",
+      "styleAttributes": {
+        "path": "short-dashed",
+        "arrow": "diamond"
+      },
+      "fromNode": "2cf56cae38fd1fda",
+      "fromSide": "top",
+      "toNode": "c18d33e85691ff6e",
+      "toSide": "bottom",
+      "color": "3"
+    },
+    {
+      "id": "546085f62e468915",
+      "styleAttributes": {
+        "pathfindingMethod": "a-star",
+        "path": "short-dashed"
+      },
+      "fromNode": "16762950b214837e",
+      "fromSide": "right",
+      "toNode": "c18d33e85691ff6e",
+      "toSide": "left"
+    },
+    {
+      "id": "c1c1591c4162a08a",
+      "styleAttributes": {
+        "path": "short-dashed"
+      },
+      "fromNode": "0898bb5196659955",
+      "fromSide": "bottom",
+      "toNode": "c18d33e85691ff6e",
+      "toSide": "left"
+    },
+    {
+      "id": "e15711bcd7c7ac06",
+      "styleAttributes": {
+        "pathfindingMethod": "a-star",
+        "path": "short-dashed"
+      },
+      "fromNode": "57a7c7b47b9c198e",
+      "fromSide": "top",
+      "toNode": "c18d33e85691ff6e",
+      "toSide": "bottom"
+    },
+    {
+      "id": "07125dcf67c1e77b",
+      "styleAttributes": {},
+      "fromNode": "382ccbf19d207853",
+      "fromSide": "left",
+      "toNode": "502adaffe2f3006e",
+      "toSide": "top",
+      "color": "1"
+    },
+    {
+      "id": "3aa814cb87010f2d",
+      "styleAttributes": {},
+      "fromNode": "d38d8472083e1054",
+      "fromSide": "left",
+      "toNode": "5b189e38e81045b1",
+      "toSide": "left",
+      "color": "1"
+    },
+    {
+      "id": "5a4d0d440b9e813b",
+      "styleAttributes": {},
+      "fromNode": "5b189e38e81045b1",
+      "fromSide": "right",
+      "toNode": "57a7c7b47b9c198e",
+      "toSide": "left",
+      "color": "1"
+    },
+    {
+      "id": "08ac97674959114b",
+      "styleAttributes": {},
+      "fromNode": "5b189e38e81045b1",
+      "fromSide": "right",
+      "toNode": "42ed143f437c246f",
+      "toSide": "left",
+      "color": "1"
+    },
+    {
+      "id": "38757610d8f15da4",
+      "styleAttributes": {},
+      "fromNode": "5b189e38e81045b1",
+      "fromSide": "right",
+      "toNode": "6c947a6533ddfe25",
+      "toSide": "left",
+      "color": "1"
+    },
+    {
+      "id": "10daaef826b5bc80",
+      "styleAttributes": {},
+      "fromNode": "82e9419acb130d09",
+      "fromSide": "left",
+      "toNode": "5b189e38e81045b1",
+      "toSide": "left",
+      "color": "1"
+    }
+  ],
+  "metadata": {}
+}
